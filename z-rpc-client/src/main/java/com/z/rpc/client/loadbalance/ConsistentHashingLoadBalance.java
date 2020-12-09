@@ -1,5 +1,5 @@
 /*
- * www.zdsoft.cn Inc.
+ *
  * Copyright (c) 2005-2017 All Rights Reserved.
  */
 /*

@@ -63,7 +63,7 @@ public class ServerHandler extends BaseServerHandler<RequestPacket> {
     public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
         if (evt instanceof IdleStateEvent) {
             ctx.channel().close();      // beat 3N, close if idle
-            logger.debug(" zds-rpc provider netty server close an idle channel.");
+            logger.debug(" z-rpc provider netty server close an idle channel.");
         } else {
             super.userEventTriggered(ctx, evt);
         }

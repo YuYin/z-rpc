@@ -2,7 +2,6 @@ package com.z.rpc.client.proxy;
 
 import com.google.common.collect.Lists;
 import com.z.rpc.client.*;
-import com.zds.rpc.client.*;
 import com.z.rpc.client.connection.Connection;
 import com.z.rpc.client.loadbalance.LoadBalanceStrategy;
 import com.z.rpc.common.CallType;

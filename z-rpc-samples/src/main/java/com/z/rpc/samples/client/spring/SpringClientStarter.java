@@ -1,5 +1,5 @@
 /*
- * www.zdsoft.cn Inc.
+ *
  * Copyright (c) 2005-2017 All Rights Reserved.
  */
 package com.z.rpc.samples.client.spring;
@@ -15,7 +15,7 @@ public class SpringClientStarter {
 
     public static void main(String args[]) {
         AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext();
-        annotationConfigApplicationContext.scan("com.zds.rpc.samples.client");
+        annotationConfigApplicationContext.scan("com.z.rpc.samples.client");
         annotationConfigApplicationContext.register(RPCClientConfig.class);
         annotationConfigApplicationContext.getBeanFactory().addBeanPostProcessor(new RPCClientBPP(annotationConfigApplicationContext));
         annotationConfigApplicationContext.refresh();

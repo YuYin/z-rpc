@@ -20,8 +20,8 @@ public class SimpleServerStarter {
 
         // HelloService helloService = new HelloServiceImpl();
         //PersonService personService=new PersonServiceImpl();
-       // remoteServer.loadService("com.zds.rpc.samples.client.HelloService", helloService);
-        //remoteServer.loadService("com.zds.rpc.samples.client.PersonService",personService);
+       // remoteServer.loadService("com.z.rpc.samples.client.HelloService", helloService);
+        //remoteServer.loadService("com.z.rpc.samples.client.PersonService",personService);
         try {
             abstractRemoteServer.startup();
         } catch (Exception ex) {

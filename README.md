@@ -80,7 +80,7 @@
 
 ## 2. 使用
 
-详见zds-rpc-samples
+详见z-rpc-samples
 
 ## 3. 性能
 
